@@ -1,0 +1,10 @@
+Riippuvuudet, jotka tulee tunnistaa:
+import RadioInput, { RadioInputOption } from "shared/components/Testi1";
+import { Alert, Heading, InputLabel, InputText, InputGroup, ContentHighlight, ListItem, List } from "./Testi2";
+import { SectionId } from "../Testi3";
+import SectionId from "../Testi4";
+
+Riippuvuudet, joita ei pidä tunnistaa:
+kali: React.lazy(() => import("./Testi21"));
+importTesti22
+console.log("import: Testi23")
